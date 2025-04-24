@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ShadCN Demo
 
-## Getting Started
+This repository contains example code used in my article to demonstrate and compare building UI components **from scratch** versus using **ShadCN UI**.
 
-First, run the development server:
+It also shows how to **customize ShadCN components** and **extend them with variants** to fit real-world design needs.
+
+## 🔍 What You'll Find Here
+
+This repo showcases:
+
+- A comparison between handcrafted UI components and ShadCN components
+- How to customize ShadCN components with Tailwind CSS
+- How to add and manage variants using ShadCN's utility-based approach
+- Clean and responsive UI patterns using modern frontend tools
+
+If you're following along with the article, this is the companion repo to reference the source code and explore how everything works under the hood.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **UI Components**: [ShadCN UI](https://ui.shadcn.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **TypeScript** for type safety
+
+## 🚀 Getting Started
+
+To run the examples locally:
 
 ```bash
+# Clone the repo
+git clone https://github.com/maksdeb-g/shadcndemo.git
+
+# Navigate into the project directory
+cd shadcndemo
+
+# Install dependencies
+npm install
+
+# Start the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
